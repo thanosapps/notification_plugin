@@ -4,7 +4,6 @@
  * @file
  * Main file for Notification Plugin module.
  */
-use Drupal\node\Entity\NodeType;
 
 /**
  * Implements hook_user_login().
