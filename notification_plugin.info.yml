@@ -1,0 +1,7 @@
+name: Notification Plugin
+type: module
+description: 'Drupal 8 Plugin type.'
+core: 8.x
+
+dependencies:
+  - system
