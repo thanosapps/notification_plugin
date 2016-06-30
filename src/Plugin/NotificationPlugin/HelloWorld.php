@@ -5,9 +5,9 @@ namespace Drupal\notification_plugin\Plugin\NotificationPlugin;
 use Drupal\notification_plugin\NotificationPluginBase;
 
 /**
- * Provides a basic form.
+ * Provides a notification plugin.
  *
- * @ReusableForm(
+ * @NotificationPlugin(
  *   id = "hello_world",
  *   name = @Translation("Hello World"),
  *   message = "Hello World!"

@@ -2,10 +2,9 @@
 
 namespace Drupal\notification_plugin;
 
-use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
 use Drupal\Component\Plugin\PluginInspectionInterface;
 
-interface NotificationPluginInterface extends PluginInspectionInterface, ContainerFactoryPluginInterface {
+interface NotificationPluginInterface extends PluginInspectionInterface {
 
   /**
    * Return the name of the notification plugin.
@@ -15,7 +14,7 @@ interface NotificationPluginInterface extends PluginInspectionInterface, Contain
   public function getName();
 
   /**
-   * Shows the notification of the plugin.
+   * Get the notification of the plugin.
    */
-  public function showNotification();
+  public function getNotification();
 }
