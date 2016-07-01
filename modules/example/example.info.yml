@@ -1,0 +1,7 @@
+name: Example
+type: module
+description: 'Dummy module.'
+core: 8.x
+
+dependencies:
+  - system
